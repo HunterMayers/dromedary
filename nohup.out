@@ -1,0 +1,478 @@
+[19:38:45] Using gulpfile ~/repos/dromedary/gulpfile.js
+[19:38:45] Starting 'default'...
+[19:38:45] Starting 'serve'...
+[19:38:45] Starting 'ddb-local'...
+[19:38:45] Starting 'ddb-local:download-wrapper'...
+[19:38:45] /home/hmlinux/repos/dromedary/ddb-local/DynamoDBLocal.jar exists. Skipping download.
+[19:38:45] Finished 'ddb-local:download-wrapper' after 3.83 ms
+[19:38:45] Starting 'ddb-local:serve'...
+[bg] Starting java -Djava.library.path=ddb-local/DynamoDBLocal_lib -jar ddb-local/DynamoDBLocal.jar -dbPath ddb-local/ -sharedDb -port 8079
+[19:38:45] Finished 'ddb-local:serve' after 4.84 ms
+[19:38:45] Finished 'ddb-local' after 11 ms
+[19:38:45] Starting 'app:serve'...
+[19:38:45] Finished 'app:serve' after 68 ms
+[19:38:45] Finished 'serve' after 81 ms
+[19:38:45] Finished 'default' after 82 ms
+livereload[tiny-lr] listening on 35729 ...
+Initializing DynamoDB Local with the following configuration:
+Port:	8079
+InMemory:	false
+DbPath:	ddb-local/
+SharedDb:	true
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+Listening on :::8080
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+/home/hmlinux/repos/dromedary/feature-toggles
+Request received from ::ffff:127.0.0.1 for /data
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+/home/hmlinux/repos/dromedary/feature-toggles
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key
+Request received from ::ffff:127.0.0.1 for /data
+Fetching color counts for app_key

@@ -1,8 +1,12 @@
 language: node_js
-  node_js:
-    - "7.2"
-  before_script:
-    - npm install -g gulp
-    - npm install
-  script:
-    gulp package-app
+node_js:
+- '7.2'
+before_script:
+- npm install -g gulp
+- npm install
+script: gulp package-app
+deploy:
+  provider: heroku
+  app: murmuring-reef-13066
+  api_key:
+    secure: lofoSvLK2sf0PEQ307+MKZl6WALbmYBHgdGXYpggovxqQLphFU1KdI3mAthnpqI71ysj3YMYJDmZ3g51KwOSLF7lqTo5rg+n6gRp3TTejAbpFg0my22jBGtbPc5ugW/fITtdXwR9X8Sf23XHm2GC7cwv2t/BTfYcLJEsJhWNY8f/cUL9wkwhGSFWSsrYdtHK1q7T3pCEGw/eKUO3o8n+NpRl7lOT0g4xu0N5GAkucOmKE+2+6RYnhvEownRRdnEQZMrVIhr8eMZW4MT+0YVg/ihdgLfTU6nIWnzQl+xVPZjsPNzYDmulihklPvdNCXSDxkC4txPtNJ9Zug49JzBp5q3+t3eUpMMO/50txOv42noHgEBmMuArBGEL15khyDZjMxC63GCEoX/PiAF9CgmONmUKxqIvvny0XhhZbk0yA0nElKIVAOhwXi/n0CugY+JhzON09NvEQ9pFZTWRRZsy6aePQxuYmNgBk8x+qS9zv3gDc3ylVjQL7isoAqcgku+UNFL9NX9hazEbXnFgi/DPiPh/Ktd4kyIyeRoCsMVPcmXH0JmRYk6MBVCa0nI5VCBcK2jg2wClJMOe4cV8FzpeaQdKMkjCisKRLv1f3KjtnVEv3SfJGAXKnmon8EuPh8AViHnV/csGQISssQ16Se3RJHDNOadEF/qUdCBuSX2zF3k=
